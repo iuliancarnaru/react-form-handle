@@ -1,0 +1,34 @@
+@import "./fonts/Lato.css";
+/* avilable font-weight: t100, l300, r400, b700*/
+
+/* --- Default colors ---*/
+$color-primary--black: #333;
+$color-primary--light-grey: #f5f5f5;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /* 10px */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: $color-primary--black;
+}
+
+/* helper for centering the webpage */
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+  background-color: $color-primary--light-grey;
+  padding: 10px 20px;
+}
